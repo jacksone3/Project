@@ -24,7 +24,7 @@ st.write(
 @st.cache_data
 def load_data():
     # Make sure this filename matches the CSV in your repo
-    return pd.read_csv("IndividualAssistanceHousingRegistrantsLargeDisasters.csv")
+    return pd.read_csv("fema_small.csv")
 
 df = load_data()
 
